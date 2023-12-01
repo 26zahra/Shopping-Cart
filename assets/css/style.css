@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+i, button {
+    cursor: pointer;
+}
+.products{
+    /* width: 1700px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+sub{
+    font-size: 30px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.product-card{
+    width: 400px;
+    padding: 20px 0px;
+    gap: 5px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product-card img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+.product-card p{
+    font-style: normal;
+    font-size: 20px;
+}
+.product-card button{
+    padding: 5px 10px;
+}
+.modal{
+    background-color: beige;
+    padding: 40px 100px;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    display: none;
+}
+.modal-heading{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modal-heading i{
+    font-size: 30px;
+}
+.modal-main i{
+    color: dimgray;
+}
+.modal-main {
+    border-top: 1px solid dimgrey;
+   
+    border-collapse: collapse;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.count{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.count button{
+    padding: 5px;
+    background-color: darkgrey;
+    border-radius: 4px;
+    border: 1px solid dimgray;
+}
+
+.modal-main img{
+    width: 50px;
+    height: 100px;
+    object-fit: cover;
+}
+.shopping-cart{
+    background-color: beige;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: 15px;
+}
+.shopping-cart i {
+    font-size: 50px;
+    color: dimgray;
+}
